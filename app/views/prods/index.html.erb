@@ -8,6 +8,7 @@
       <th>Name</th>
       <th>Description</th>
       <th>Image url</th>
+      <th>Delivery</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -18,6 +19,7 @@
         <td><%= prod.name %></td>
         <td><%= prod.description %></td>
         <td><%= prod.image_url %></td>
+        <td><%= prod.delivery %></td>
         <td><%= link_to 'Show', prod %></td>
         <td><%= link_to 'Edit', edit_prod_path(prod) %></td>
         <td><%= link_to 'Destroy', prod, method: :delete, data: { confirm: 'Are you sure?' } %></td>
